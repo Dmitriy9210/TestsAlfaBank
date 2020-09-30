@@ -1,7 +1,7 @@
 # TestsAlfaBank
+Проект реализован на selenid + junit5 + allure
 
 Тестирование хедера главной страницы "https://alfabank.ru/"
-Проект реализован на selenid + junit5 + allure
 
 Запуск тестов происходит из командной строки.
 
@@ -17,5 +17,5 @@
  - с логами ошиьбок
  
  Запуск Allure отчета:
-* Выполнить загрузку Allure - gradle downloadAllure
-* Выполнить команду для формирования отчета - gradle allureServe 
+1) Выполнить загрузку Allure - gradle downloadAllure
+2) Выполнить команду для формирования отчета - gradle allureServe 
