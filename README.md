@@ -11,6 +11,11 @@
 * gradle clean clickTest - запуск тестов с тегом "click"
 
 
-Есть возможность просмотр allure Отчета со скринами ошибок, с page sourse страниц и логами
-* Выполнить загрузку Allure: gradle downloadAllure
-* Выполнить команду для формирования отчета: gradle allureServe 
+Есть возможность просмотр allure отчета:
+ - со скринами ошибок
+ - с page sourse страниц
+ - с логами ошиьбок
+ 
+ Запуск Allure отчета:
+* Выполнить загрузку Allure - gradle downloadAllure
+* Выполнить команду для формирования отчета - gradle allureServe 
