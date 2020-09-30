@@ -72,7 +72,6 @@ public class TestsAlfaBank {
             $(by("type", "search")).shouldBe(Condition.visible);
             $(by("type", "search")).setValue("Вклад" + Keys.ENTER);
             $("#ya-site-results").shouldHave(Condition.text("Вклады"));
-
         });
     }
 
