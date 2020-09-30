@@ -60,7 +60,6 @@ public class TestsAlfaBank {
         step("Open \"Корпорациям\"", () -> {
             $(".h1Cda9K").$(withText("Корпорациям")).click();
             $(".sme-form", 0).shouldBe(Condition.visible);
-
         });
     }
 
